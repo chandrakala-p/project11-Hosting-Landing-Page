@@ -8,6 +8,10 @@ Chandrakala P
 
 ![Final Look of the Website](./final-look/final.PNG)
 
+### Live project Link:
+
+[project link](https://hosting-landing-page-project11.netlify.app/)
+
 ## What I learnt from this Project?
 
 - This project helped me to understand the whole idea of Html and css.
