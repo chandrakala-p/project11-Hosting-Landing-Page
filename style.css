@@ -1,0 +1,438 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --blue: #0f72ce;
+    --grey: #4e4a4ad3;
+    --light-black: #000000e1;
+}
+
+nav {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.logo {
+    width: 90px;
+    height: 30px;
+}
+
+.nav-items {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    font-size: 18px;
+}
+
+.signup-btn {
+    color: var(--blue);
+    font-size: 15px;
+    padding: 10px 20px;
+    background-color: var(--white);
+    border-radius: 10px;
+    border: 2px solid var(--blue);
+}
+
+.content-img img {
+    width: 450px;
+    height: 300px;
+}
+
+.main {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content {
+    padding-left: 80px;
+    width: 580px;
+}
+
+.content h1 {
+    font-size: 64px;
+}
+
+.content p {
+    padding-bottom: 10px;
+    font-size: 17px;
+    color: var(--grey);
+}
+
+.btn-common {
+    padding: 15px 25px;
+    color: var(--white);
+    border-radius: 5px;
+    background-image: linear-gradient(to bottom, rgb(19, 171, 231), rgb(12, 75, 158));
+    border: 1px solid var(--white);
+}
+
+.main-2 {
+    margin-top: 11em;
+}
+
+.main-3 {
+    margin-top: 7em;
+}
+
+img.support-img {
+    width: 500px;
+    height: 400px;
+    padding-left: 70px;
+}
+
+.content-right {
+    padding-right: 50px;
+    width: 500px;
+}
+
+.content-right h1 {
+    font-size: 50px;
+    color: var(--light-black);
+}
+
+.read-more {
+    padding: 15px 40px;
+    font-size: 15px;
+}
+
+img.support-img {
+    width: 650px;
+    height: 600px;
+}
+
+
+.service-heading {
+    margin: 40px 80px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.service-heading h1 {
+    font-size: 50px;
+    width: 700px;
+    text-transform: capitalize;
+    color: #000000cb;
+}
+
+
+.service-heading p {
+    width: 500px;
+}
+
+.p-text {
+    font-size: 17px;
+    color: var(--grey);
+
+}
+
+.service {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 60px;
+}
+
+.service-item h1 {
+    text-transform: capitalize;
+}
+
+.service-item img {
+    width: 40px;
+    height: 50px;
+}
+
+.sub-card img {
+
+    padding: 5px;
+    width: 15px;
+}
+
+.sub-card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-footer {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.card-footer h1 {
+    font-size: 30px;
+}
+
+.card-footer h1 span {
+    color: #504b4b;
+}
+
+.card-items {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: center;
+}
+
+.card-section {
+
+    background-image: url(./images/footer-bg.svg);
+}
+
+.card-section>h1 {
+    text-align: center;
+    font-size: 40px;
+    color: var(--white);
+    text-transform: capitalize;
+    padding-top: 50px;
+
+}
+
+.card {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    background-color: var(--white);
+}
+
+.card:hover {
+    box-shadow: 8px 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-content {
+    padding-top: 40px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn {
+    margin-top: 30px;
+    padding: 10px 25px;
+}
+
+.spcial-card {
+    padding-top: 0;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.spcial-card div.card-heading {
+    background-color: #000000;
+    border-radius: 10px;
+}
+
+.spcial-card div.card-heading {
+    color: #ffffff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.spcial-card .card-content {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.customer {
+    padding: 100px 60px;
+    margin-top: 40px 40px;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.705)
+}
+
+.custo-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.customer-card-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.cards {
+    width: 350px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 2px solid #fdf7f7;
+}
+
+.card-1 {
+    background-color: #ffffff;
+}
+
+.customer-heading {
+    width: 600px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    padding-bottom: 30px;
+    padding-left: 300px;
+}
+
+.p-card {
+    font-size: 15px;
+}
+
+.c-div {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.c-div h3 {
+    font-size: 14px;
+}
+
+.c-div p {
+    font-size: 12px;
+}
+
+.c-div div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.last {
+    background-image: url(./images/footer-bg.svg);
+    padding: 50px 30px;
+}
+
+.last-txt {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.last-txt div {
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.last-txt div h1 {
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.last-txt div p {
+    color: #ffffff;
+}
+
+.last-btn {
+    padding: 12px 25px;
+    color: #ffffff;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+}
+
+.footer {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 30px;
+
+}
+
+.logo-section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 200px;
+}
+
+.footer h1 {
+    font-size: 18px;
+}
+
+.menu-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.link-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.overview-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.social div img {
+    width: 30px;
+    height: 50px;
+}
+
+.social div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #00000079;
+    font-size: 13px;
+}
+
+.footer-p {
+    color: #00000079;
+    font-size: 13px;
+}
